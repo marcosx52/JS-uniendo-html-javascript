@@ -1,0 +1,20 @@
+{
+  "name": "desafio-final",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Marcos Maldonado</h1> <h3 align=\"center\">A new Github User</h3>",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosx52/desafio-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosx52/desafio-final/issues"
+  },
+  "homepage": "https://github.com/marcosx52/desafio-final#readme"
+}

@@ -21,7 +21,7 @@ class consulta {
 //Funcion para obtener informacion del HTML
 
 function inicializarElementos(){
-    formulario = document.getElementById("formulario");
+    formulario = document.getElementById('formulario');
     inputNombre = document.getElementById("nombre");
     inputEmail = document.getElementById("email");
     inputMensaje = document.getElementById("mensaje");
@@ -33,15 +33,11 @@ inicializarElementos()
 
 formulario.onsubmit = (event) => {
     event.preventDefault();
-
-    console.log(inputNombre.value, inputEmail.value, inputMensaje.value)
-        
-    
-    //RESOLVER!!
-    //PROBLEMA PARA GENERAR EL RESET DEL FORMULARIO//
-
-    
+    console.log(inputNombre.value, inputEmail.value, inputMensaje.value);
+    formulario.reset();
 }
+
+
 
 
 // PASAR LUEGO ESTA INFORMACION A LA LOCALSTORAGE! 

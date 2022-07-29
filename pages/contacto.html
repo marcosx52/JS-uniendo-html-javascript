@@ -45,6 +45,9 @@
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html">🛒</a>
+            </li>        
           </ul>
         </div>
       </div>
@@ -54,8 +57,7 @@
   
   <!--CREAR FORMULARIO DE CONTACTO-->
   <body>
-
-    
+ 
        
     <div class="content2">
         <div class="contact">
@@ -79,9 +81,11 @@
                     </div>
                 </div>
             </div>
-            <div id="formulario" class="form">
+
+
+            <div class="form">
                 <h1>Habla con nosotros</h1>
-                <form action="">
+                <form id="formulario" action="">
                     <div class="flex-rev">
                         <input type="text" placeholder="Marcos Coderhouse" name="name" id="nombre" />
                         <label for="name">Nombre</label>
@@ -95,7 +99,7 @@
                         <textarea placeholder="Queria consultarles..." name="message" id="mensaje" /></textarea>
                         <label for="message">Mensaje</label>
                     </div>
-                    <button type="submit" id="btnPrincipal">Enviar</button>
+                    <button type="submit" id="btnPrincipal" action="formulario.reset();  ">Enviar</button>
                 </form>
             </div>
         </div>
@@ -168,18 +172,18 @@
             <form action="#">
               <div>
                 <div class="text">Tu Nombre:</div>
-                <input type="text" required />
+                <input type="text2" required />
               </div>
               <div>
                 <div class="text">Email:</div>
-                <input type="email" required />
+                <input type="email2" required />
               </div>
               <div>
                 <div class="text">Mensaje:</div>
                 <textarea cols="25" rows="2"></textarea>
               </div>
               <div class="btn">
-                <input type="submit" value="Send" />
+                <input type="submit2" value="Send" />
               </div>
             </form>
           </div>
@@ -203,7 +207,6 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 crossorigin="anonymous"
 ></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="../js/formulario.js"></script>
 
 </body>

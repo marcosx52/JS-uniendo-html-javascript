@@ -428,11 +428,6 @@ button {
   color: black;
 }
 
-.card-text {
-  position: sticky;
-  justify-content: center;
-  top: 100%;
-}
 
 .cont-nosotros .img-nos {
   display: flex;

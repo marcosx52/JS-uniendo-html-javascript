@@ -36,12 +36,19 @@ let productos = [
 let aux = localStorage.getItem("productosEnCarro");
 let productosEnCarro;
 
+/*
 if (!aux) {
   productosEnCarro = [];
 } else {
   productosEnCarro = JSON.parse(aux);
   pintarCarrito();
 }
+*/
+
+/////////// OPTIMIZACION DE CODIGO /////////////
+!aux ? productosEnCarro = [] : productosEnCarro = JSON.parse(aux); pintarCarrito();
+
+////////////////////////////////////////////////
 
 function pintarListado() {
   let aux = "";
@@ -90,12 +97,6 @@ function pintarCarrito() {
   }
   document.getElementById("div-carrito").innerHTML = aux;
 }
-
-
-
-
-
-
 
 
             // cambio

@@ -74,12 +74,14 @@ function meterAlCarro(objetosProducto) {
   productosEnCarro.push(objetosProducto);
   localStorage.setItem("productosEnCarro", JSON.stringify(productosEnCarro));
   pintarCarrito();
+  Swal.fire('Su Producto ha sido agregado al Carrito')
 }
 
 function borrarDelCarro(id) {
   productosEnCarro.splice(id, 1);
   localStorage.setItem("productosEnCarro", JSON.stringify(productosEnCarro));
   pintarCarrito();
+  Swal.fire('Has removido un Objeto del Carrito')
 }
 
 function pintarCarrito() {

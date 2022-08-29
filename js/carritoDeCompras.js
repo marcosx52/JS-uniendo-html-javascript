@@ -112,6 +112,7 @@ const pintarFooter = () => {
         Swal.fire(
             'El Carro de compras 🛒 ha sido Vaciado'
           )
+        
     })
 
 }
@@ -123,9 +124,20 @@ const btnAccion = e => {
         producto.cantidad++
         carrito[e.target.dataset.id] = { ...producto }
         pintarCarrito()
-        Swal.fire(
-            'Ha Agregado el mismo producto a su carro de compras 🛒'
-          )
+        Toastify({
+            text: "Ha Agregado el mismo producto a su carro de compras 🛒",
+            duration: 3000,
+            destination: "https://github.com/apvarun/toastify-js",
+            newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+              background: "linear-gradient(to right, #00b09b, #96c93d)",
+            },
+            onClick: function(){} // Callback after click
+          }).showToast();
     }
 
 
@@ -138,9 +150,20 @@ if (e.target.classList.contains('btn-danger')) {
         carrito[e.target.dataset.id] = {...producto}
     }
     pintarCarrito()
-    Swal.fire(
-        'Ha Quitado un producto a su carro de compras 🛒'
-      )
+    Toastify({
+        text: "Ha Quitado un producto a su carro de compras 🛒",
+        duration: 3000,
+        destination: "https://github.com/apvarun/toastify-js",
+        newWindow: true,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #00b09b, #96c93d)",
+        },
+        onClick: function(){} // Callback after click
+      }).showToast();
 }
 e.stopPropagation()
 }

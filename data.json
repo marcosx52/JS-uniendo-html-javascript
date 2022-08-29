@@ -1,34 +1,230 @@
 [
-    {"id": 1002, "nombre":"Hot Wheels x3 Amarrillo", "precio": 500, "categoria":"Vehiculos de juguete"},
-    {"id": 1003, "nombre":"Hot Wheels Combo Montaña Rusa + kit x3", "precio": 2500, "categoria":"Vehiculos de juguete"},
-    {"id": 1004, "nombre":"Hot Wheels Montaña Rusa", "precio": 1500, "categoria":"Vehiculos de juguete"},
-    {"id": 1001, "nombre":"Hot Wheels x3 Azul", "precio": 500, "categoria":"Vehiculos de juguete"},
-    {"id": 2001, "nombre":"Zanahorias Monte", "precio": 500, "categoria":"Montessori"},
-    {"id": 2002, "nombre":"Fabrica Monte", "precio": 500, "categoria":"Montessori"},
-    {"id": 2003, "nombre":"Kit Monte Portatil", "precio": 500, "categoria":"Montessori"},
-    {"id": 2004, "nombre":"Colgador Monte", "precio": 500, "categoria":"Montessori"},
-    {"id": 3001, "nombre":"Teddy Bear Marron", "precio": 500, "categoria":"Peluches"},
-    {"id": 3002, "nombre":"Unicorni", "precio": 500, "categoria":"Peluches"},
-    {"id": 3003, "nombre":"Palta", "precio": 500, "categoria":"Peluches"},
-    {"id": 3004, "nombre":"Elefante", "precio": 500, "categoria":"Peluches"},
-    {"id": 4001, "nombre":"Barbie Musica", "precio": 2500, "categoria":"Muñecas"},
-    {"id": 4002, "nombre":"Barbie Niñera", "precio": 2500, "categoria":"Muñecas"},
-    {"id": 4003, "nombre":"Muñeca Bailarina", "precio": 500,"categoria":"Muñecas"},
-    {"id": 4004, "nombre":"Casa de Barbie", "precio": 500, "categoria":"Muñecas"},
-    {"id": 5001, "nombre":"Backgammon", "precio": 1500, "categoria":"Juegos de mesa"},
-    {"id": 5002, "nombre":"Ludo Chino", "precio": 1500, "categoria":"Juegos de mesa"},
-    {"id": 5003, "nombre":"Uno", "precio": 1500, "categoria":"Juegos de mesa"},
-    {"id": 5004, "nombre":"Juego de la Vida - Mario Bros Edition", "precio": 1500, "categoria":"Juegos de mesa"},
-    {"id": 6001, "nombre":"Karaoke", "precio": 2500, "categoria":"Musica e instrumentos"},
-    {"id": 6002, "nombre":"Bateria", "precio": 2500, "categoria":"Musica e instrumentos"},
-    {"id": 6003, "nombre":"Teclado", "precio": 2500, "categoria":"Musica e instrumentos"},
-     {"id": 6004, "nombre":"Saxofon", "precio": 2500, "categoria":"Musica e instrumentos"},
-    {"id": 7001, "nombre":"Capitan America", "precio": 2500, "categoria":"Figuras de accion"},
-    {"id": 7002, "nombre":"Spiderman", "precio": 2500, "categoria":"Figuras de accion"},
-    {"id": 7003, "nombre":"Toy Story 4 - buddy", "precio": 2500, "categoria":"Figuras de accion"},
-    {"id": 7004, "nombre":"Marvel - Avengers kit", "precio": 6500, "categoria":"Figuras de accion"},
-    {"id": 8001, "nombre":"Faber Castell kit Acuarelas", "precio": 2500, "categoria":"Dibujo y arte"},
-    {"id": 8002, "nombre":"Pinturas Lavables", "precio": 2500, "categoria":"Dibujo y arte"},
-    {"id": 8003, "nombre":"Atril con Pinturas y Pinceles", "precio": 2500, "categoria":"Dibujo y arte"},
-    {"id": 8004, "nombre":"Acuarelas", "precio": 6500, "categoria":"Dibujo y arte"}
-  ]
+  {
+    "id": 1001,
+    "nombre": "Hot Wheels x3 Azul",
+    "precio": 500,
+    "categoria": "Vehiculos de juguete",
+    "img": "/assets/img/productos/hotwheels1.jpg"
+  },
+  {
+    "id": 1002,
+    "nombre": "Hot Wheels x3 Amarrillo",
+    "precio": 500,
+    "categoria": "Vehiculos de juguete",
+    "img": "/assets/img/productos/hotwheels2.jpg"
+  },
+
+  {
+    "id": 1003,
+    "nombre": "Hot Wheels Combo Montaña Rusa + kit x3",
+    "precio": 2500,
+    "categoria": "Vehiculos de juguete",
+    "img": "/assets/img/productos/hotwheels3.jpg"
+  },
+  {
+    "id": 1004,
+    "nombre": "Hot Wheels Montaña Rusa",
+    "precio": 1500,
+    "categoria": "Vehiculos de juguete",
+    "img": "/assets/img/productos/hotwheels4.jpg"
+  },
+  
+  {
+    "id": 2001,
+    "nombre": "Zanahorias Monte",
+    "precio": 500,
+    "categoria": "Montessori",
+    "img": "/assets/img/productos/monte1.jpg"
+  },
+  {
+    "id": 2002,
+    "nombre": "Fabrica Monte",
+    "precio": 500,
+    "categoria": "Montessori",
+    "img": "/assets/img/productos/monte2.jpg"
+  },
+  {
+    "id": 2003,
+    "nombre": "Kit Monte Portatil",
+    "precio": 500,
+    "categoria": "Montessori",
+    "img": "/assets/img/productos/monte3.jpg"
+  },
+  {
+    "id": 2004,
+    "nombre": "Colgador Monte",
+    "precio": 500,
+    "categoria": "Montessori",
+    "img": "/assets/img/productos/monte4.jpg"
+  },
+  {
+    "id": 3001,
+    "nombre": "Teddy Bear Marron",
+    "precio": 500,
+    "categoria": "Peluches",
+    "img": "/assets/img/productos/oso1.jpg"
+  },
+  {
+    "id": 3002, 
+    "nombre": "Unicorni",
+    "precio": 500,
+    "categoria": "Peluches",
+    "img": "/assets/img/productos/oso3.jpg"
+  },
+  { 
+    "id": 3003, 
+    "nombre": "Palta", 
+    "precio": 500, 
+    "categoria": "Peluches" ,
+    "img": "/assets/img/productos/oso4.jpg"
+  
+  },
+  { 
+    "id": 3004, 
+    "nombre": "Elefante", 
+    "precio": 500, 
+    "categoria": "Peluches",
+    "img": "/assets/img/productos/oso5.jpg"
+  
+  },
+  {
+    "id": 4001,
+    "nombre": "Barbie Musica",
+    "precio": 2500,
+    "categoria": "Muñecas",
+    "img": "/assets/img/productos/barbie1.jpg"
+  },
+  {
+    "id": 4002,
+    "nombre": "Barbie Niñera",
+    "precio": 2500,
+    "categoria": "Muñecas",
+    "img": "/assets/img/productos/barbie2.jpg"
+  },
+  {
+    "id": 4003,
+    "nombre": "Muñeca Bailarina",
+    "precio": 500,
+    "categoria": "Muñecas",
+    "img": "/assets/img/productos/barbie3.jpg"
+  },
+  {
+    "id": 4004,
+    "nombre": "Casa de Barbie",
+    "precio": 500,
+    "categoria": "Muñecas",
+    "img": "/assets/img/productos/barbie4.jpg"
+  },
+  {
+    "id": 5001,
+    "nombre": "Backgammon",
+    "precio": 1500,
+    "categoria": "Juegos de mesa",
+    "img": "/assets/img/productos/jm1.jpg"
+  },
+  {
+    "id": 5002,
+    "nombre": "Ludo Chino",
+    "precio": 1500,
+    "categoria": "Juegos de mesa",
+    "img": "/assets/img/productos/jm2.jpg"
+  },
+  {
+    "id": 5003,
+    "nombre": "Uno",
+    "precio": 1500,
+    "categoria": "Juegos de mesa",
+    "img": "/assets/img/productos/jm3.jpg"
+  },
+  {
+    "id": 5004,
+    "nombre": "Juego de la Vida - Mario Bros Edition",
+    "precio": 1500,
+    "categoria": "Juegos de mesa",
+    "img": "/assets/img/productos/jm4.jpg"
+  },
+  {
+    "id": 6001,
+    "nombre": "Karaoke",
+    "precio": 2500,
+    "categoria": "Musica e instrumentos",
+    "img": "/assets/img/productos/m1.jpg"
+  },
+  {
+    "id": 6002,
+    "nombre": "Bateria",
+    "precio": 2500,
+    "categoria": "Musica e instrumentos",
+    "img": "/assets/img/productos/m2.jpg"
+  },
+  {
+    "id": 6003,
+    "nombre": "Teclado",
+    "precio": 2500,
+    "categoria": "Musica e instrumentos",
+    "img": "/assets/img/productos/m3.jpg"
+  },
+  {
+    "id": 6004,
+    "nombre": "Saxofon",
+    "precio": 2500,
+    "categoria": "Musica e instrumentos",
+    "img": "/assets/img/productos/m4.jpg"
+  },
+  {
+    "id": 7001,
+    "nombre": "Capitan America",
+    "precio": 2500,
+    "categoria": "Figuras de accion",
+    "img": "/assets/img/productos/fa1.jpg"
+  },
+  {
+    "id": 7002,
+    "nombre": "Spiderman",
+    "precio": 2500,
+    "categoria": "Figuras de accion",
+    "img": "/assets/img/productos/fa2.jpg"
+  },
+  {
+    "id": 7003,
+    "nombre": "Toy Story 4 - buddy",
+    "precio": 2500,
+    "categoria": "Figuras de accion",
+    "img": "/assets/img/productos/fa3.jpg"
+  },
+  {
+    "id": 7004,
+    "nombre": "Marvel - Avengers kit",
+    "precio": 6500,
+    "categoria": "Figuras de accion",
+    "img": "/assets/img/productos/fa4.jpg"
+  },
+  {
+    "id": 8001,
+    "nombre": "Faber Castell kit Acuarelas",
+    "precio": 2500,
+    "categoria": "Dibujo y arte",
+    "img": "/assets/img/productos/pintura1.jpg"
+  },
+  {
+    "id": 8002,
+    "nombre": "Pinturas Lavables",
+    "precio": 2500,
+    "categoria": "Dibujo y arte",
+    "img": "/assets/img/productos/pintura2.jpg"
+  },
+  {
+    "id": 8003,
+    "nombre": "Atril con Pinturas y Pinceles",
+    "precio": 2500,
+    "categoria": "Dibujo y arte",
+    "img": "/assets/img/productos/pintura3.jpg"
+  },
+  {
+    "id": 8004,
+    "nombre": "Acuarelas",
+    "precio": 6500,
+    "categoria": "Dibujo y arte",
+    "img": "/assets/img/productos/pintura4.jpg"
+  }
+]

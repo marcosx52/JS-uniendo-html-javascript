@@ -10,22 +10,16 @@ fetch('../data.json')
   let htmlAux = '';
   for (let i = 0; i < miArray.length; i++) {
     htmlAux =
-      htmlAux +
-      /*`<div onclick="clickProducto(${miArray[i].id})">
-          <h3>${miArray[i].nombre}</h3>
-          <p>${miArray[i].precio}</p>
-      </div>`; */
-
-
-      `<div class=".col-md-" (${miArray[i].id})>
+      htmlAux + `
+      <div class=".col-md-" (${miArray[i].id})>
       <div class="card" style="width: 18rem;">
-          <img src= class="card-img-top" alt="(${miArray[i].id})">
+          <img src="${miArray[i].img}" class="card-img-top" alt="(${miArray[i].nombre})">
           <div class="card-body">
               <h5 class="card-title">${miArray[i].nombre}</h5>
               <p class="card-text">${miArray[i].precio}</p>
               <a href="#" class="btn btn-primary">Añadir al Carrito</a>
-          </div>
-      </div>
+          </div> 
+      </div> 
 
   </div>`
 
